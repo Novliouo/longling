@@ -16,7 +16,7 @@
 
 .intro-text {
     text-align: justify;
-    hyphens: auto;
+    /* hyphens: auto; */
 }
 
 .callout {
@@ -95,6 +95,16 @@ strong{
 .news-content {
     color: #333;
 }
+
+.news-ref {
+    color: #242424;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
 
 .award-item{
     margin: 0.2rem 0;

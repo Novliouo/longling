@@ -49,7 +49,7 @@
 .publication-title:hover {
     font-weight: 800;
     /*text-decoration:underline wavy #F42E7A;*/
-    color: #ff9cb7;
+    /* color: #ff9cb7; */
     cursor: pointer;
 }
 
@@ -115,6 +115,10 @@
 
 .venue-tag.workshop {
     background-color: #ddbeff;
+    
+}
+.venue-tag.thesis {
+    background-color: #cee8c9;
 }
 .venue-tag.wip {
     background-color: #ccc;
@@ -229,7 +233,6 @@
     font-size: 0.8rem;
     z-index: 10;
     text-align: justify;
-    hyphens: auto;
 }
 
 .publication-title-wrapper:hover .abstract-popup {
